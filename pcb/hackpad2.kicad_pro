@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hackpad2_pcb.kicad_pro",
+    "filename": "hackpad2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "hackpad2_pcb.kicad_sch",
-        "name": "Root",
-        "uuid": "bb22a1ff-aa67-456c-b4ba-d8fa4da2229e"
+        "filename": "hackpad2.kicad_sch",
+        "name": "",
+        "uuid": "283a667c-d2f7-4987-8d71-de19341ed6fc"
       }
     ],
-    "used_designators": "DS1,U1",
+    "used_designators": "U1-2,#PWR1-4,SW1-11,D1-11",
     "variants": []
   },
   "sheets": [
     [
-      "bb22a1ff-aa67-456c-b4ba-d8fa4da2229e",
-      "Root"
+      "283a667c-d2f7-4987-8d71-de19341ed6fc",
+      ""
     ]
   ],
   "text_variables": {},
