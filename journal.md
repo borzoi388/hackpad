@@ -29,3 +29,13 @@ referenced the "idea for schematic" section of [this tutorial](https://www.youtu
 The video told me to connect the shared contact between switches A and B to ground as well as one side of the push button to ground and everything else to VCC with the resistors, though I saw it done differently by the schematics I looked at from other finished hackpads (connecting everything but C to different pins on the microcontroller) so I ended up copying the other hackpads (apart from leaving one side of the push button to ground). I'm not sure if this still works, but if it doesn't, I might not use the push button because I'm thinking of using the encoder to switch colors on the underglow or something. Then I'll be able to add back the column on the keyboard :D
 
 The leds were pretty straightforward. With the explanation on the hackpad website and looking at some of the other hackpad designs, I just wired them accordingly. 
+
+# 6/29 part 2, working on routing
+
+1.5 hours ish so far!
+
+![routing](https://cdn.hackclub.com/019f155b-796b-79e8-8814-c8fa480f5e2b/image.png)
+
+I spent a while struggling on the layout first. I still want to do a fish shape but I fear it might be turning out a little cursed. I imagine the eye is the encoder and the oled is an eyebrow or something. The keys are the scales and you plug the usb into the mouth. Anyways, started trying to route it. It was harder than I thought- I had to clear everything a couple of times (as you can see in the picture, I just did that XD)
+
+I just reorganized the diodes and keys a little so it should be a little easier to route. I put the keys that were previously in columns on the schematic into rows so that the routes shouldn't get in the way of each other if they're on the same layer and put the diodes in groups. I'll probably rename the rows to columns now so I don't get confused when it's firmware time :P
