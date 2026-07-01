@@ -38,7 +38,7 @@ The leds were pretty straightforward. With the explanation on the hackpad websit
 
 I spent a while struggling on the layout first. I still want to do a fish shape but I fear it might be turning out a little cursed. I imagine the eye is the encoder and the oled is an eyebrow or something. The keys are the scales and you plug the usb into the mouth. Anyways, started trying to route it. It was harder than I thought- I had to clear everything a couple of times (as you can see in the picture, I just did that XD)
 
-I just reorganized the diodes and keys a little so it should be a little easier to route. I put the keys that were previously in columns on the schematic into rows so that the routes shouldn't get in the way of each other if they're on the same layer and put the diodes in groups. I'll probably rename the rows to columns now so I don't get confused when it's firmware time :P
+I just reorganized the diodes and keys a little so it should be a little easier to route. I put the keys that were previously in columns on the schematic into rows so that the routes shouldn't get in the way of each other if they're on the same layer and put the diodes in groups. I'll probably rename the rows to columns now so I don't get confused lilwhen it's firmware time :P
 
 # 7/1, done routing maybe?
 Time spent: uhh I don't know honestly maybe like 2 or 3 hours :sob:
@@ -48,3 +48,10 @@ Time spent: uhh I don't know honestly maybe like 2 or 3 hours :sob:
 I was just trying out different ways to route it heh- I reset it a couple of times. I did end up removing the press function on the encoder cuz I had to replace it with something I forgot to connect to the microcontroller :P
 I'm pretty happy I was able to do almost everything on one layer (I was sure I'd have to ground and vcc on different ones) so yea :D
 Not sure if I'll try rerouting it, kinda just want to move on to the CAD
+
+# 7/1 part 2, lil bit of silkscreen art
+Time spent: 45 min
+
+![silkscreen](https://cdn.hackclub.com/019f200a-71b6-7b84-a94d-63bb4cf31d91/image.png)
+
+decided to add some art to the margins, I named it fishpad and drew some little fish :D
